@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1519037878310113369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3005259985824348546}
+  - component: {fileID: 7512661653481364465}
+  m_Layer: 0
+  m_Name: Scythe_BronzeObj
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3005259985824348546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519037878310113369}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 24.916195, y: 0.30483216, z: 318.34317}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7512661653481364465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519037878310113369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02727cf82ac6ee04fb75e123efa098f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createdObj:
+    objectType: 0
+    handleType1: 0
+    handleType2: 0
+    metalType1: 0
+    metalType2: 0
+    metalType3: 0
+    smeltStats1:
+      maxSmeltAmount: 0
+      smeltRate: 0
+      desiredSmeltAmount: 0
+      currSmeltAmount: 0
+    smeltStats2:
+      maxSmeltAmount: 0
+      smeltRate: 0
+      desiredSmeltAmount: 0
+      currSmeltAmount: 0
+    smeltStats3:
+      maxSmeltAmount: 0
+      smeltRate: 0
+      desiredSmeltAmount: 0
+      currSmeltAmount: 0
+  orderText: '"I''m a Bronze Scythe"'
